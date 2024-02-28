@@ -1,0 +1,51 @@
+body{
+     font-family: 'Open Sans ' ,sans-serif;
+     background-color: rgb(10, 10, 75);
+}
+.container{
+     width: 440px;
+     margin-left: 30%;
+     background-color: #fff;
+     margin-top: 5px;
+     padding: 11px;
+     justify-content: center;
+}
+.head{
+     text-align: center;
+     padding: 1px;
+     margin-top: 2px;
+     font-size: 30px;
+     /* display: flex; */
+     color: green;
+     
+}
+.number-of-count{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom:0.4em ;
+     border-bottom: 0.1em solid #c0bfd2;
+}
+#timer {
+     text-align: right;
+     font-size: 18px;
+     margin-bottom: 0px;
+     margin-top: 2px;
+     color: red;
+ }
+.quiz{
+     margin-left: 11px;
+}
+.btn{
+     text-align: center;
+     padding: 11px;
+}
+button{
+     width: 140px;
+     height: 40px;
+     background-color: rgb(3, 3, 32);
+     color: white;
+     font-size: 24px;
+     border: none;
+     border-radius: 2px;
+}
